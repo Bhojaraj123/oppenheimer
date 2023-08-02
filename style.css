@@ -1,0 +1,17 @@
+.image-container {
+    position: relative;
+    display: inline-block; /* or block, depending on your layout */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust this to position the text vertically */
+    left: 50%; /* Adjust this to position the text horizontally */
+    transform: translate(-50%, -50%); /* Center the text within the container */
+    color: #ffffff; /* Set the text color */
+    font-size: 18px; /* Set the font size */
+    font-weight: bold; /* Set the font weight if needed */
+    background-color: rgba(0, 0, 0, 0.7); /* Set the background color and transparency */
+    padding: 10px; /* Add padding around the text */
+  }
+  
